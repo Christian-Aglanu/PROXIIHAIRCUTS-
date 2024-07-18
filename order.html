@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORDER</title>
+  <link rel="stylesheet" href="order.css">
+</head>
+<body>
+  <div class="overall">
+    <div class="top" style="display: grid; grid-template-columns: 300px 1fr;">
+      <div>
+        <img src="plogo.jpg" alt="" class="logo">
+      </div>
+      <div class="td2" >
+        <p class="sitename">
+          PROXII  <span>HAIRCUTS</span> 
+        </p>
+        <img src="960x0.png" alt="" class="clipper">
+      </div>
+    </div>
+    <p class="welcome">WELCOME TO PROXII HAIRCUTS</p>
+    <p class="adress">Your company of quality, affordable, safe, hygienic, comfortable, and reliable companion.</p>
+    <p class="order">PLACE ORDER</p>
+    <form class="form" onsubmit="whatsapp(); return false;">
+      <div class="formdive" style="display: grid;grid-template-columns: 1fr 1fr 1fr;">
+        <div class="items">
+          <input id="name" class="personalinfo" required type="text" placeholder="Full Name">
+          <input id="age" class="personalinfo" required type="text" placeholder="Age">
+          <input id="gender" class="personalinfo" required type="text" placeholder="Gender">
+        </div>
+        <div class="items">
+          <input id="service-type" class="personalinfo" required type="text" placeholder="Service Type">
+          <input id="location" class="personalinfo" required type="text" placeholder="Location">
+          <input id="contact" class="personalinfo" required type="text" placeholder="Your Contact (Active One)">
+        </div>
+        <div class="items">
+          <input id="status" class="personalinfo" required type="text" placeholder="First Service (Yes/No)">
+          <input id="baber-gender" class="personalinfo" required type="text" placeholder="Barber Gender (Male/Female)">
+          <textarea class="message" id="message" placeholder="Message"></textarea>
+        </div>
+      </div>
+      <button type="submit" class="placeorder">SUBMIT</button>
+    </form>
+    <div class="bottom">
+      <p>©</p>
+    </div>
+  </div>
+  <script>
+    function whatsapp() {
+      let name = document.getElementById('name').value;
+      let age = document.getElementById('age').value;
+      let gender = document.getElementById('gender').value;
+      let serviceType = document.getElementById('service-type').value;
+      let location = document.getElementById('location').value;
+      let contact = document.getElementById('contact').value;
+      let baberGender = document.getElementById('baber-gender').value;
+      let status = document.getElementById('status').value;
+      let message = document.getElementById('message').value;
+
+      let whatsappurl = "https://wa.me/002330500163070?text=" + 
+      "Customer Name: " + name + "%0a" + 
+      "Customer Age: " + age + "%0a" + 
+      "Customer Contact: " + contact + "%0a" + 
+      "Customer Gender: " + gender + "%0a" + 
+      "Service Type: " + serviceType + "%0a" + 
+      "Location: " + location + "%0a" + 
+      "Barber Gender: " + baberGender + "%0a" + 
+      "First Service: " + status + "%0a" + 
+      "Message: " + message + "%0a";
+
+      window.open(whatsappurl, '_blank').focus();
+    }
+
+    const placeOrder = document.querySelector('.placeorder');
+    placeOrder.addEventListener('click', whatsapp);
+  </script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORDER</title>
+  <link rel="stylesheet" href="order.css">
+</head>
+<body>
+  <div class="overall">
+    <div class="top" style="display: grid; grid-template-columns: 300px 1fr;">
+      <div>
+        <img src="plogo.jpg" alt="" class="logo">
+      </div>
+      <div class="td2" >
+        <p class="sitename">
+          PROXII  <span>HAIRCUTS</span> 
+        </p>
+        <img src="960x0.png" alt="" class="clipper">
+      </div>
+    </div>
+    <p class="welcome">WELCOME TO PROXII HAIRCUTS</p>
+    <P class="adress">You company of quality, afordable, safe, hygienic, confortable, and rilyable companion.</P>
+    <p class="order">PLACE ORDER</p>
+    <form  class="form" action="">
+    <div class="formdive" style="display: grid;grid-template-columns: 1fr 1fr 1fr;">
+      <div class="items">
+        
+          <input id="name" class="personalinfo" required type="text" placeholder="full name">
+          <input id="age" class="personalinfo" required type="text" placeholder="age">
+          <input id="gender" class="personalinfo" required type="text" placeholder="gender">
+       
+      </div>
+  
+      <div class="items">
+        <input id="service-type" class="personalinfo" required type="text" placeholder="service type">
+        <input id="location" class="personalinfo" required type="text" placeholder="location">
+        <input id="contact" class="personalinfo" required type="text" placeholder="you contact(active one)">
+      </div>
+  
+      <div class="items">
+        <input id="status" regular class="personalinfo" required type="text" placeholder="fisrt service(yes/no)">
+        <input id="baber-gender" class="personalinfo" required type="text" placeholder="gendertype(male/female)">
+        <textarea class="message" name="" id="message"></textarea>
+      </div>
+    </div>
+    <button onclick="whatsapp()" type="submit" class="placeorder">SUBMIT</button>
+  </form>
+  <div class="bottom">
+    <p>©</p>
+  </div>
+  </div>
+<script>
+  function whatsapp(){
+  let name = document.getElementById('name').valeu;
+  let age = document.getElementById('age').valeu;
+  let gender = document.getElementById('gender').valeu;
+  let serviceType = document.getElementById('service-type').valeu;
+  let lcoction = document.getElementById('location').valeu;
+  let contact = document.getElementById('contact').valeu;
+  let baberGender = document.getElementById('baber-gebder').valeu;
+  let status = document.getElementById('status').valeu;
+  let message = document.getElementById('message').valeu;
+
+let whatsappurl = "https://wa.me/0500163070?text=" + 
+"customer name: " + name + "%0a" 
++"customer age: " + age + "%0a" 
++"customer contact: " + contact + "%0a" 
++"customer gender: " + gender + "%0a" 
++"customer serviceType: " + serviceType + "%0a" 
++"customer location: " + location + "%0a" 
++"customer baber gender: " + baberGender + "%0a" 
++"customer status: " + status + "%0a" 
++"customer messager: " + message + "%0a" ;
+
+
+  window.open(whatsappurl, '_blank').focus();
+
+}
+const placeOrder =document.querySelector('.placeorder')
+
+placeOrder.addEventListener('click', ()=>{
+  whatsapp()
+})
+</script>
+</body>
+</html> -->

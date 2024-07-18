@@ -1,0 +1,224 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(1, 46, 46);
+  overflow-x: hidden;
+  position: relative;
+}
+.chart{
+  width: 50px;
+  z-index: 999;
+  bottom: 10%;
+  right: 10%;
+  position: fixed;
+  cursor: pointer;
+  transition: .40s ease-in-out;
+}
+.placeorder{
+  width: 50px;
+  z-index: 999;
+  bottom: 10%;
+  right: 5%;
+  position: fixed;
+  cursor: pointer;
+  transition: .40s ease-in-out;
+}
+.placeorder:hover{
+  width: 55px;
+  transition: .40s ease-in-out;
+}
+.chart:hover{
+  width: 55px;
+  transition: .40s ease-in-out;
+}
+.top{
+  margin: 0px;
+  padding: 0px;
+  height: 100px;
+  background-color: rgb(1, 88, 88);
+}
+.logo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 20px;
+  position: absolute;
+  top: 0%;
+  left: 1%;
+}
+.title{
+  font-weight: bolder;
+  margin-top: 8px;
+}
+.title{
+  font-size: 70px;
+  color: white;
+  margin-top: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title span {
+  color: darkorange;
+}
+.clipper{
+width: 200px;
+position: absolute;
+right: 0%;
+bottom: 10%;
+}
+.sub2{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+.items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items a{
+  margin-left: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  z-index: 1;
+}
+.items a:hover{
+  text-decoration: underline;
+  color: rgb(1, 88, 88);
+}
+.myimage{
+  width: 400px;
+  height: 600px;
+  border-radius: 50%;
+  margin-top: 50px;
+  transition: .30s ease-in-out;
+}
+.myimage:hover{
+  width: 410px;
+  height: 610px;
+  transition: .30s ease-in-out;
+}
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titleinfo{
+  font-size: 30px;
+  color: darkorange;
+  width: 600px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+.info{
+  width: 600px;
+  font-size: 17px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.introimg1{
+  width: 350px;
+  height: 300px;
+  margin-left: 30px;
+  transition: .30s ease-in-out;
+  border-radius: 20px;
+}
+.introimg1:hover{
+  display: grid;grid-template-columns: 1fr 1fr;
+  width: 360px;
+  height:310px;
+  transition: .30s ease-in-out;
+}
+.intro-400 div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info-400{
+  width: 90vw;
+  font-size: 17px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.comb{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40vw;
+}
+.number{
+  font-size: 20px;
+  color: darkorange;
+}
+.bottom{
+  display: grid;grid-template-columns: 100px 1fr 1fr;
+  vertical-align: top;
+  background: rgb(1, 26, 26);
+}
+.titleinfo-200{
+  margin-top: 0px;
+  font-size: 30px;
+  color: white;
+  width: 600px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+.info-200{
+  width: 500px;
+  font-size: 15px;
+  color: darkorange;
+  margin-left: 20px;
+  line-height: 27px;
+  margin-top: 0px;
+}
+.instagram, 
+.facebook,
+.whatsapp{
+  width: 80px;
+  margin-top: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.linklogo{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.links{
+  color: rgb(7, 219, 219);
+}
+.proxiilogo{
+  width: 400px;
+  height: 500px;
+}
+.last{
+  border-color:white;
+}
+.last p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: teal;
+}
+
