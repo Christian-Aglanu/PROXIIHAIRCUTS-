@@ -68,6 +68,7 @@ width: 200px;
 position: absolute;
 right: 0%;
 bottom: 10%;
+position:fixed;
 }
 .sub2{
   position: relative;
