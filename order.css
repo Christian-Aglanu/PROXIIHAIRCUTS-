@@ -30,11 +30,9 @@ position:relative;
   height: 150px;
   border-radius: 50%;
   margin: 10px;
-  position:absolute;
-  top:10%;
-  left:10%
-
-
+}
+.logo{
+  position:fixed;
 }
 
 .top .td2 {
