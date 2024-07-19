@@ -167,6 +167,11 @@ position:relative;
     font-size: 5vw;
 
   }
+  .logo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+  }
 
   .welcome {
     font-size: 4vw;
@@ -212,6 +217,11 @@ position:relative;
 
   .placeorder {
     font-size: 1em;
+  }
+  .logo{
+    width:60px;
+    height:60px;
+    border-radius:50%; 
   }
 }
 /* body{
