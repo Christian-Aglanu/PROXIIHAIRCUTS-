@@ -109,13 +109,13 @@ position:relative;
   border-style: solid;
   border-color: white;
   border-width: 2px;
-  font-size: 16px;
+  font-size: 10px;
   color: white;
   background-color: transparent;
 }
 
 .items input::placeholder {
-  font-size: 16px;
+  font-size: 10px;
   color: rgb(193, 190, 190);
 }
 
