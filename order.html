@@ -46,6 +46,35 @@
       <p>©</p>
     </div>
   </div>
+     <script>
+    function whatsapp() {
+      let name = document.getElementById('name').value;
+      let age = document.getElementById('age').value;
+      let gender = document.getElementById('gender').value;
+      let serviceType = document.getElementById('service-type').value;
+      let location = document.getElementById('location').value;
+      let contact = document.getElementById('contact').value;
+      let baberGender = document.getElementById('baber-gender').value;
+      let status = document.getElementById('status').value;
+      let message = document.getElementById('message').value;
+
+      let whatsappurl = "https://wa.me/002330500163070?text=" + 
+      "Customer Name: " + name + "%0a" + 
+      "Customer Age: " + age + "%0a" + 
+      "Customer Contact: " + contact + "%0a" + 
+      "Customer Gender: " + gender + "%0a" + 
+      "Service Type: " + serviceType + "%0a" + 
+      "Location: " + location + "%0a" + 
+      "Barber Gender: " + baberGender + "%0a" + 
+      "First Service: " + status + "%0a" + 
+      "Message: " + message + "%0a";
+
+      window.open(whatsappurl, '_blank').focus();
+    }
+
+    const placeOrder = document.querySelector('.placeorder');
+    placeOrder.addEventListener('click', whatsapp);
+  </script> 
  
 </body>
 </html>
