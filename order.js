@@ -1,3 +1,6 @@
+
+
+
 function whatsapp(){
   let name = document.getElementById('name').valeu;
   let age = document.getElementById('age').valeu;
