@@ -62,15 +62,15 @@ function sendEmail() {
   let email = "proxiihaircuts@gmail.com";
   let subject = "Service Request Details";
   let body = 
-    "Customer Name: " + name + "%0a" + 
-    "Customer Age: " + age + "%0a" + 
-    "Customer Contact: " + contact + "%0a" + 
-    "Customer Gender: " + gender + "%0a" + 
-    "Service Type: " + serviceType + "%0a" + 
-    "Location: " + location + "%0a" + 
-    "Barber Gender: " + baberGender + "%0a" + 
-    "First Service: " + status + "%0a" + 
-    "Message: " + message + "%0a";
+   `Customer Name: ${name}
+  Customer Name:${age}
+  Customer Name:${contact}
+  Customer Name:${gender}
+  Customer Name:${serviceType}
+  Customer Name:${location}
+  Customer Name:${baberGender}
+  Customer Name:${status}
+  Customer Name:${message}`
 
   let mailtoLink = "mailto:" + email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
 
