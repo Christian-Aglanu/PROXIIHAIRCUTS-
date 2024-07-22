@@ -6,6 +6,10 @@ body {
   opacity: .9;
   background-attachment: fixed;
 }
+.formdive{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .overall {
   display: flex;
@@ -161,6 +165,10 @@ body {
     font-size: 5vw;
 
   }
+  .formdive{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
   .welcome {
     font-size: 4vw;
@@ -190,6 +198,10 @@ body {
 @media (max-width: 480px) {
   .sitename {
     font-size: 6vw;
+  }
+  .formdive{
+   display: grid;
+   grid-template-columns: 1fr;
   }
   .logo{
     width: 60px;
