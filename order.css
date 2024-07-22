@@ -5,8 +5,6 @@ body {
   background-size: cover; /* Change to cover to ensure the image covers the entire background */
   opacity: .9;
   background-attachment: fixed;
-position:relative;
-
 }
 
 .overall {
@@ -24,15 +22,11 @@ position:relative;
   display: grid;
   grid-template-columns: 1fr; /* Adjust layout to be responsive */
 }
-
 .logo {
   width: 150px; /* Adjust logo size */
   height: 150px;
   border-radius: 50%;
   margin: 10px;
-}
-.logo{
-  position:fixed;
 }
 
 .top .td2 {
@@ -109,13 +103,13 @@ position:relative;
   border-style: solid;
   border-color: white;
   border-width: 2px;
-  font-size: 10px;
+  font-size: 16px;
   color: white;
   background-color: transparent;
 }
 
 .items input::placeholder {
-  font-size: 10px;
+  font-size: 16px;
   color: rgb(193, 190, 190);
 }
 
@@ -167,11 +161,6 @@ position:relative;
     font-size: 5vw;
 
   }
-  .logo{
-    width:100px;
-    height:100px;
-    border-radius:50%;
-  }
 
   .welcome {
     font-size: 4vw;
@@ -191,6 +180,10 @@ position:relative;
 
   .placeorder {
     font-size: 1.2em;
+  }
+  .logo{
+    width: 100px;
+    height: 100px;
   }
 }
 
@@ -221,10 +214,5 @@ position:relative;
 
   .placeorder {
     font-size: 1em;
-  }
-  .logo{
-    width:60px;
-    height:60px;
-    border-radius:50%; 
   }
 }
