@@ -25,7 +25,7 @@ position:relative;
   grid-template-columns: 1fr; /* Adjust layout to be responsive */
 }
 
-.top .logo {
+.logo {
   width: 150px; /* Adjust logo size */
   height: 150px;
   border-radius: 50%;
