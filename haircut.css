@@ -12,6 +12,16 @@ background-color: rgb(1, 46, 46);
   background-attachment: fixed;
   
 }
+.work{
+  border: solid;
+  border-width: 5px;
+  border-color: darkorange;
+  border-style: dotted;
+  margin-left: 10px;
+  padding: 10px 10px;
+  border-radius: 20px;
+
+}
 .color{
   border-color: rgb(1, 59, 59);
   opacity: 0.4;
